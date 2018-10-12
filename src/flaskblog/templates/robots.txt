@@ -1,0 +1,10 @@
+# bloque l'indexation des images pour les robots
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /images/
+Allow: /
+Allow: /home
+Allow: /about
+Sitemap: http://237story.entreprendre.cm/sitemap.xml
