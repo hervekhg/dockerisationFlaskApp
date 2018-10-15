@@ -16,6 +16,9 @@ The docker-compose build a container with our custom image and connect it to mys
 docker-compose build #Build
 docker-compose up # Launch
 docker-compose ps # Check
+
+#Import database
+docker exec -it mysql_container_id mysql -uusername -ppassword --database=237story < 237storyDB.20181013_2200.sql
 ```
 
 
